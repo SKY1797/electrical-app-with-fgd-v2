@@ -345,7 +345,6 @@ body::before {
 /* Search page container - outer box */
 .search-page-container {
   width: 100%;
-  height: 90%; /* Added */
   max-width: 800px;
   background: var(--card);
   border-radius: var(--radius);
@@ -354,7 +353,7 @@ body::before {
   border: 2px solid var(--border);
   position: relative;
   overflow: hidden;
-  /* flex: 1; */ /* Removed */
+  flex: 1;
   display: flex;
   flex-direction: column;
   padding: 1.5rem 2rem;
