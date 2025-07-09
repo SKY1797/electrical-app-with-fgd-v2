@@ -357,6 +357,7 @@ body::before {
   display: flex;
   flex-direction: column;
   padding: 1.5rem 2rem;
+  margin-bottom: 1.2rem:
 }
 
 .search-page-container::before {
@@ -635,7 +636,7 @@ body::before {
 }
 
 .results-container {
-  height: 22rem;
+  height: 32rem;
   width: 100%;
   border-radius: var(--radius);
   border: 2px solid var(--border);
