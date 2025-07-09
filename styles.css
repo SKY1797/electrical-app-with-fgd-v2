@@ -345,6 +345,7 @@ body::before {
 /* Search page container - outer box */
 .search-page-container {
   width: 100%;
+  height: 90%; /* Added */
   max-width: 800px;
   background: var(--card);
   border-radius: var(--radius);
@@ -353,7 +354,7 @@ body::before {
   border: 2px solid var(--border);
   position: relative;
   overflow: hidden;
-  flex: 1;
+  /* flex: 1; */ /* Removed */
   display: flex;
   flex-direction: column;
   padding: 1.5rem 2rem;
@@ -439,7 +440,7 @@ body::before {
 
 .search-input {
   flex: 1;
-  padding: 0.8rem 1.25rem;
+  padding: 0.8rem 1rem;
   border: 2px solid transparent;
   border-radius: var(--radius);
   background: var(--input);
@@ -800,7 +801,7 @@ body::before {
 
   /* Search page specific - full page layout */
   #searchPage {
-    padding: 0rem 0.5rem;
+    padding: 0rem 0.2rem;
     justify-content: flex-start;
   }
 
